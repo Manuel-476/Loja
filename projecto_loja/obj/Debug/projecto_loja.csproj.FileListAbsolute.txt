@@ -1,0 +1,33 @@
+c:\users\manuel da c. antónio\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\bin\Debug\projecto_loja.exe
+c:\users\manuel da c. antónio\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\bin\Debug\projecto_loja.pdb
+c:\users\manuel da c. antónio\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.csprojResolveAssemblyReference.cache
+c:\users\manuel da c. antónio\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Properties.Resources.resources
+c:\users\manuel da c. antónio\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Tela_login.resources
+c:\users\manuel da c. antónio\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.csproj.GenerateResource.Cache
+c:\users\manuel da c. antónio\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.exe
+c:\users\manuel da c. antónio\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.pdb
+C:\Users\Manuel da C. António\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Registro_produto.resources
+C:\Users\Manuel da C. António\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Inicio.resources
+C:\Users\Manuel da C. António\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Aumento_de_Registro.resources
+C:\Users\Manuel da C. António\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Editar_Produto.resources
+C:\Users\Manuel da C. António\Documents\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.venda.resources
+C:\Users\Manuel da C. António\Documents\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Usuario.resources
+C:\Users\Manuel da C. António\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.editar_usuario.resources
+C:\Users\Manuel da C. António\documents\visual studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Balanco.resources
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.exe
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.pdb
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\bin\Debug\projecto_loja.exe
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\bin\Debug\projecto_loja.pdb
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Aumento_de_Registro.resources
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Balanco.resources
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Editar_Produto.resources
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.editar_usuario.resources
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Inicio.resources
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Properties.Resources.resources
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Registro_produto.resources
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Tela_login.resources
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.Usuario.resources
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.venda.resources
+C:\Users\DELL\Pictures\Visual Studio 2012\Projects\projecto_loja\projecto_loja\obj\Debug\projecto_loja.csproj.GenerateResource.Cache

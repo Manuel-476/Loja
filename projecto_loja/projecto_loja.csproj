@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9E487B88-078F-4056-88D0-3F6EFDA4FE3C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>projecto_loja</RootNamespace>
+    <AssemblyName>projecto_loja</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft SQL Server Compact Edition\v4.0\Desktop\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aumentyo de Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aumentyo de Registro.Designer.cs">
+      <DependentUpon>Aumentyo de Registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Balanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Balanco.Designer.cs">
+      <DependentUpon>Balanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conector.cs" />
+    <Compile Include="DAOmetodo.cs" />
+    <Compile Include="Editar_Produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editar_Produto.Designer.cs">
+      <DependentUpon>Editar_Produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editar_usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editar_usuario.Designer.cs">
+      <DependentUpon>editar_usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManiDAO.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Registro_produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_produto.Designer.cs">
+      <DependentUpon>Registro_produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_login.Designer.cs">
+      <DependentUpon>Tela_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario.Designer.cs">
+      <DependentUpon>Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venda.Designer.cs">
+      <DependentUpon>Venda.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Aumentyo de Registro.resx">
+      <DependentUpon>Aumentyo de Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Balanco.resx">
+      <DependentUpon>Balanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editar_Produto.resx">
+      <DependentUpon>Editar_Produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editar_usuario.resx">
+      <DependentUpon>editar_usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro_produto.resx">
+      <DependentUpon>Registro_produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_login.resx">
+      <DependentUpon>Tela_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario.resx">
+      <DependentUpon>Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venda.resx">
+      <DependentUpon>Venda.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-door-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\produto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\add-image-icon-png-21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\edit-icon-vector-16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\edit-gf48447999_1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\add-image-icon-png-9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\add-image-icon-png-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\add-image-icon-png-5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\add-image-icon-png-6.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
