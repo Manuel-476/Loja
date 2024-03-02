@@ -169,15 +169,6 @@ namespace projecto_loja
             insere.Parameters.AddWithValue("@gdia", mani.getGdia());
             insere.Parameters.AddWithValue("@totalvenda", mani.getTvenda());
             insere.Parameters.AddWithValue("@id",id);
-            
-            
-           
-           
-           
-           
-        
-
-            
 
             if (tabela.ToUpper() == "usuario".ToUpper())
             {
@@ -223,8 +214,6 @@ namespace projecto_loja
             con.Open();
             SqlCeCommand insere = new SqlCeCommand();
             insere.Connection = con;
-
-            
 
             insere.Parameters.AddWithValue("@nome", mani.getNomeproduto());
             insere.Parameters.AddWithValue("@id_produto", num);
@@ -341,10 +330,7 @@ namespace projecto_loja
                insere.ExecuteNonQuery();
            }
 
-          
-
-
-
+    
            insere.Dispose();
            con.Close();
       } //apagar registros na tabela mediante os nomes passados por parametros 
